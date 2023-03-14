@@ -20,10 +20,10 @@ MappingUtil.nMap("<C-K>", "<C-W>k")
 MappingUtil.nMap("<C-L>", "<C-W>l")
 
 -- Change window size mapping
-MappingUtil.nMap("<leader>wwu", "<cmd>vertical resize +1<cr>")
-MappingUtil.nMap("<leader>wwd", "<cmd>vertical resize -1<cr>")
-MappingUtil.nMap("<leader>whu", "<cmd>resize +1<cr>")
-MappingUtil.nMap("<leader>whd", "<cmd>resize -1<cr>")
+MappingUtil.nMap("<leader>wwu", "<cmd>vertical resize +5<cr>")
+MappingUtil.nMap("<leader>wwd", "<cmd>vertical resize -5<cr>")
+MappingUtil.nMap("<leader>whu", "<cmd>resize +5<cr>")
+MappingUtil.nMap("<leader>whd", "<cmd>resize -5<cr>")
 
 -- Open tree window
 MappingUtil.nMap("<leader>e", "Ntree<cr>")
